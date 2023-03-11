@@ -1,0 +1,213 @@
+body {
+	background-color: #f1f1f1;
+}
+
+.login-box {
+	margin: 100px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	width: 350px;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+h2 {
+	color: #666;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	color: #333;
+	background-color: #f1f1f1;
+}
+
+input[type="submit"] {
+	background-color: #666;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #333;
+}
+
+
+/* Estilos generales */
+
+body {
+	background-color: #F5F5F5;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+a {
+	display: block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	background-color: #5D5D5D;
+	color: #fff;
+}
+
+
+
+/* Estilos generales */
+
+body {
+	background-color: #F5F5F5;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+a {
+	display: block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	background-color: #5D5D5D;
+	color: #fff;
+}
+
+/* estilos del menu.php*/
+/* Colores */
+:root {
+	--color-primario: #3e8e41;
+	--color-secundario: #ccc;
+	--color-terciario: #4CAF50;
+}
+
+/* Estilos del body */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: white;
+	color: black;
+}
+
+/* Estilos del encabezado */
+h1 {
+	text-align: center;
+	color: var(--color-primario);
+	margin-top: 50px;
+}
+
+/* Estilos de las listas */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+/* Estilos de los enlaces */
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Estilos de REFERENCIALES */
+.REFERENCIALES li {
+	display: none;
+}
+
+.REFERENCIALES:hover li {
+	display: block;
+}
+
+/* Estilos de PERFIL DE USUARIO */
+.PERFIL-DE-USUARIO li {
+	display: none;
+}
+
+.PERFIL-DE-USUARIO:hover li {
+	display: block;
+}
+
+/* Estilos para que los menús queden uno sobre otro */
+.REFERENCIALES, .PERFIL-DE-USUARIO {
+	position: absolute;
+	left: 0;
+	top: 150px;
+}
+
+.REFERENCIALES {
+	background-color: var(--color-primario);
+	padding: 10px;
+}
+
+.PERFIL-DE-USUARIO {
+	background-color: var(--color-terciario);
+	padding: 10px;
+}
+
+/* Efecto de hover para los enlaces */
+.REFERENCIALES li:hover a {
+	background-color: var(--color-secundario);
+}
+
+.PERFIL-DE-USUARIO li:hover a {
+	background-color: var(--color-secundario);
+}

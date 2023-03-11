@@ -1,0 +1,60 @@
+/* Estilos para el formulario */
+.formulario {
+	margin: 50px auto;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulario label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.formulario input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.formulario input[type="submit"] {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+/* Estilos para el menú */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #4CAF50;
+}
+
+nav a:hover {
+	background-color: #3e8e41;
+}
